@@ -1,0 +1,30 @@
+#Achtergrond {
+    margin:  0 auto;
+    border: black 5px solid;
+    width: 1250px;
+    height: 700px;
+    background-image: url(../img/stage.png);
+    background-repeat: repeat-x;
+}
+
+body {
+    background-image: url(../img/stage.png);
+}
+
+#Duck {
+    position: absolute;
+    top: 175px;
+    left: 600px;
+}
+
+#Hit {
+    color: rgb(0, 255, 21);
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+#Miss {
+    color: rgb(255, 0, 0);
+    margin-left: 15px;
+    font-size: 25px;
+}
